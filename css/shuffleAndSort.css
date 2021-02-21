@@ -1,0 +1,154 @@
+.parentWrapper {
+    background-color: #efefef;
+    width: 64rem;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 5px solid #bfbfbf;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+aside {
+    float: right;
+}
+
+.btn {
+    background: #72c3dc;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 5px 0px #2b8ead;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 1.5rem 4rem;
+    padding: 1rem 3rem;
+    position: relative;
+    outline: none;
+    width: 222px;
+}
+
+.btn:active {
+    border: 1px solid #2b8ead;
+}
+
+section {
+    width: 50rem;
+}
+
+ul {
+    margin: 0 3px;
+    padding: 0;
+}
+
+ul li {
+    color: #fff;
+    display: inline-block;
+    font-size: 6em;
+    font-weight: 100;
+    list-style: none;
+    margin: 0px -3px;
+    padding: 0.4em 0.9em;
+}
+
+.block-1,
+.block-8 {
+    background: #6f98a8;
+}
+
+.block-2,
+.block-4 {
+    background: #2b8ead;
+}
+
+.block-3,
+.block-5,
+.block-9 {
+    background: #2f454e;
+}
+
+.block-6,
+.block-7 {
+    background: #bfbfbf;
+}
+
+footer {
+    color: #333;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Responsive Media Queries*/
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    body {
+        margin: 0px;
+    }
+    .parentWrapper {
+        background: none;
+        width: 25rem;
+    }
+    hr {
+        display: none;
+    }
+    section {
+        width: 25rem;
+    }
+    aside {
+        float: none;
+        margin: 1rem;
+        text-align: center;
+    }
+    header {
+        background: #333;
+        border-bottom: none;
+        color: #fff;
+    }
+    header h1 {
+        padding: 1rem;
+    }
+    .btn {
+        overflow: visible;
+        padding: 15px 25px;
+        display: inline-block;
+        margin: 5px;
+        width: 135px;
+    }
+    ul li {
+        color: #333;
+        display: block;
+        font-size: 2rem;
+        padding: 0.3rem;
+        margin: 0px 7px 5px;
+        text-align: center;
+    }
+    .mobile-res {
+        background: #efefef;
+    }
+    .block-1,
+    .block-8 {
+        border-left: 0.3em solid #6f98a8;
+    }
+    .block-2,
+    .block-4 {
+        border-left: 0.3em solid #2b8ead;
+    }
+    .block-3,
+    .block-5,
+    .block-9 {
+        border-left: 0.3em solid #2f454e;
+    }
+    .block-6,
+    .block-7 {
+        border-left: 0.3em solid #bfbfbf;
+    }
+}
